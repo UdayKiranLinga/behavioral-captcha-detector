@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <h2>Move your mouse around this box for 5 seconds</h2>
+  <div id="track-area" style="width:400px; height:300px; border:2px solid black;"></div>
+  <button onclick="downloadData()">Download Mouse Data</button>
+
+  <script>
+    let mouseData = [];
+    let area = document.getElementById("track-area");
+
+    area.addEventListener("mousemove", function(e) {
+      let time = Date.now();
+      mouseData.push({x: e.offsetX, y: e.offsetY, t: time});
+    });
+
+    function downloadData() {
+      const blob = new Blob([JSON.stringify(mouseData)], { type: "application/json" });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = "human_mouse_data.json";
+      a.click();
+    }
+  </script>
+</body>
+</html>
+<script>
+    // Automatically download the data after 5 seconds
+    setTimeout(() => {
+      downloadData();
+    }, 5000);
+  </script>
