@@ -6,11 +6,11 @@
 
 A machine learning project that distinguishes between human and bot mouse movement patterns using behavioral analysis.
 
-## 🎯 Project Overview
+🎯 Project Overview
 
 This project implements a behavioral CAPTCHA system that analyzes mouse movement patterns to detect whether the user is human or bot. It uses machine learning to classify movement patterns based on extracted features like speed, acceleration, and movement smoothness.
 
-## 🔧 Technical Stack
+🔧 Technical Stack
 
 - **Python 3.x**
 - **Machine Learning**: scikit-learn (Random Forest Classifier)
@@ -18,7 +18,7 @@ This project implements a behavioral CAPTCHA system that analyzes mouse movement
 - **Frontend**: HTML/JavaScript for data collection
 - **Model Persistence**: joblib
 
-## 📁 Project Structure
+📁 Project Structure
 
 ```
 behavioral-captcha-detector/
@@ -45,7 +45,7 @@ behavioral-captcha-detector/
     └── index.html              # Data collection interface
 ```
 
-## 🚀 How It Works
+🚀 How It Works
 
 ### 1. Data Collection
 - **Human Data**: Collected via web interface (`index.html`) that tracks real mouse movements
