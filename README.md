@@ -103,29 +103,6 @@ Real-time classification of new mouse movement patterns as human or bot.
    # Open web/index.html in browser to collect human mouse data
    ```
 
-## 🎯 Interview Discussion Points
-
-### Machine Learning Concepts:
-- **Supervised Learning**: Binary classification problem
-- **Feature Engineering**: Converting raw coordinates to meaningful features
-- **Model Selection**: Why Random Forest for this use case
-- **Overfitting**: Handling limited training data
-
-### Real-World Applications:
-- **CAPTCHA Systems**: Alternative to traditional text-based CAPTCHAs
-- **Fraud Detection**: Identifying automated attacks
-- **User Experience**: Seamless bot detection without user interaction
-
-### Technical Challenges:
-- **Data Quality**: Ensuring diverse human movement patterns
-- **Feature Selection**: Identifying discriminative features
-- **Real-time Processing**: Fast prediction for web applications
-- **Adversarial Attacks**: Bots mimicking human behavior
-
-### Scalability Considerations:
-- **Data Collection**: Scaling to thousands of users
-- **Model Updates**: Continuous learning from new data
-- **Performance**: Sub-second prediction times
 
 ## 🔮 Future Enhancements
 
