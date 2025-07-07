@@ -34,7 +34,7 @@ behavioral-captcha-detector/
 │   └── predict.py              # Prediction script for new data
 │
 ├── data/                       # Data files
-│   ├── human_mouse_data .json  # Real human mouse movement data
+│   ├── human_mouse_data.json   # Real human mouse movement data
 │   ├── bot_mouse_data.json     # Synthetic bot movement data
 │   ├── mouse_features.csv      # Extracted features (generated)
 │   └── test_data.json          # Test data (generated)
