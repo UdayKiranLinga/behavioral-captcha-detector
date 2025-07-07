@@ -8,7 +8,8 @@ A machine learning project that distinguishes between human and bot mouse moveme
 
 🎯 Project Overview
 
-This project implements a behavioral CAPTCHA system that analyzes mouse movement patterns to detect whether the user is human or bot. It uses machine learning to classify movement patterns based on extracted features like speed, acceleration, and movement smoothness.
+Can we detect human intent through mouse movement alone?
+Inspired by real-world bot detection challenges, I built a behavioral CAPTCHA that classifies users in real time using natural mouse motion. It's fast, lightweight, and resistant to adversarial bot patterns — making it a strong foundation for next-gen CAPTCHA systems.
 
 🔧 Technical Stack
 
